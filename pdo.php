@@ -11,8 +11,10 @@ try {
     echo "helo";
 
  echo "scxz";
-	
+
 	echo "puneet";
+  echo "verma";
+
 
    $STH = $DBH->query('SELECT * FROM tbl_screen');
 
