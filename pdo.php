@@ -1,7 +1,7 @@
 <?php
 
 
-
+szxasxasxas
 
 try {
     $conn = new PDO("mysql:host=$db_host;dbname=$db_database", $db_user, $db_pass);
