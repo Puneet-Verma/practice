@@ -1,11 +1,11 @@
 <?php
-<<<<<<< HEAD
-hello
-=======
-hi
->>>>>>> f110748c1d047f924debad79244e158d72c3a81b
 
-szxasxasxas
+hello
+
+hi
+
+
+
 
 try {
     $conn = new PDO("mysql:host=$db_host;dbname=$db_database", $db_user, $db_pass);
@@ -17,7 +17,9 @@ try {
    $STH = $DBH->query('SELECT * FROM tbl_screen');
 
     # setting the fetch mode
-    $STH->setFetchMode(PDO::FETCH_ASSOC);
+
+
+   $STH->setFetchMode(PDO::FETCH_ASSOC);
 
     while($row = $STH->fetch()) {
         echo $row['screenName'] . "\n";
