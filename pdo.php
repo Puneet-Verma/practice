@@ -1,8 +1,11 @@
 <?php
+<<<<<<< HEAD
 hello
+=======
+hi
+>>>>>>> f110748c1d047f924debad79244e158d72c3a81b
 
-
-
+szxasxasxas
 
 try {
     $conn = new PDO("mysql:host=$db_host;dbname=$db_database", $db_user, $db_pass);
